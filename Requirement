@@ -1,0 +1,10 @@
+Requirements
+  * Python 3.x
+  * Jupyter Notebook
+  * Python Packages:
+  * pip install -r requirements.txt
+  * sentence-transformers
+  * scikit-learn
+  * beautifulsoup4
+  * requests
+  * numpy
