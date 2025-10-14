@@ -8,10 +8,10 @@ A Retrieval-Augmented Generation (RAG) system that crawls a website, extracts te
 --------------------
 
   rag_project/
-├── reg_service.ipynb        # Main Jupyter Notebook with code
-├── README.md                # Project documentation
-├── requirements.txt         # Python dependencies
-└── sample_output.txt        # Example run of the system
+    reg_service.ipynb        # Main Jupyter Notebook with code
+    README.md                # Project documentation
+    requirements.txt         # Python dependencies
+    sample_output.txt        # Example run of the system
 
 ## Requirements
 ---------------
