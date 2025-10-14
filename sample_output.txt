@@ -1,0 +1,76 @@
+# Example
+Enter starting website URL: https://www.geeksforgeeks.org/dbms/commonly-asked-dbms-interview-questions/ Fetching: https://www.geeksforgeeks.org/dbms/commonly-asked-dbms-interview-questions/ Text length: 42331 Total chunks created: 95 🔹 Loading embedding model... 🔹 Creating embeddings... Batches: 100%  3/3 [00:03<00:00,  1.01s/it]
+
+Ask a question (or type 'exit'): What is a Database Management System (DBMS)?
+
+==================== ANSWER ====================
+
+DBMS operations, data types, and database structure. A strong grasp of these basics will help you confidently approach more advanced topics. 1. What is a Database Management System (DBMS)? A Database Management System (DBMS) is software that is used to manage and organize databases. It provides an interface to interact with the data stored in a database. The DBMS is responsible for tasks such as storing, retrieving, and updating data, ensuring data integrity, security, and managing concurrency.
+
+Reduced Redundancy: Avoids duplicate data by enforcing normalization. Backup and Recovery: Offers automatic backup and recovery mechanisms. Concurrent Access: Allows multiple users to access the database at the same time without conflicts. 3. What is the difference between DBMS and RDBMS? DBMS (Database Management System): A system that allows users to create, store, modify, and delete data. It does not require a relational structure for data organization. Examples: Microsoft Access, XML databa
+
+e backbone of modern data storage and management. Understanding DBMS concepts is critical for anyone looking to work with databases. Whether you're preparing for your first job in database management or advancing in your career, being well-prepared for a DBMS interview can make all the difference. In this article, we've covered a list of DBMS interview questions that cover everything from basic to advanced topics. These questions will help us build a solid understanding of DBMS concepts, from ho
+
+==================== SOURCES ====================
+
+Chunk 1 | similarity=0.865 Chunk 2 | similarity=0.716 Chunk 3 | similarity=0.666
+
+==================== TIMING ====================
+
+Total time: 0.16 sec
+
+================================================
+
+Ask a question (or type 'exit'): what is AI?
+
+==================== ANSWER ====================
+
+Not enough information found in the crawled content.
+
+==================== TIMING ====================
+
+Total time: 0.03 sec
+
+================================================
+
+Ask a question (or type 'exit'): What is a foreign key? Explain with an example
+
+==================== ANSWER ====================
+
+. It ensures that no two records have the same value for the primary key field. It cannot contain NULL values. Example: In a STUDENT table, ROLL_NO could be the primary key because each student has a unique roll number. ROLL_NO NAME ADDRESS 1 Ram Delhi 2 Suresh Delhi 10. What is a foreign key? Explain with an example. A Foreign Key is an attribute in a table that links to the primary key in another table. It creates a relationship between two tables, ensuring referential integrity. Example: In a
+
+Ensures that the value of a foreign key matches a valid primary key or unique key, maintaining consistency. Referential Integrity : Prevents orphaned records in the database by enforcing valid relationships between tables. Easy Data Maintenance : Helps with cascading updates and deletions, meaning changes in the referenced table can automatically propagate to the referencing table (if configured with ON UPDATE CASCADE or ON DELETE CASCADE ). Improved Query Efficiency : With foreign keys, databa
+
+. Relationships : How entities interact with each other (e.g., Student enrolls in Course ). Example of ERD: A Student entity might have attributes like ID , Name , and Age . A Course entity might have attributes like CourseID , CourseName . A relationship Enrolls connects Student and Course with attributes like EnrollmentDate . 23. What is a join in SQL? Name and explain different types of joins. A JOIN in SQL is an operation that combines columns from two or more tables based on a related colum
+
+==================== SOURCES ====================
+
+Chunk 1 | similarity=0.720 Chunk 2 | similarity=0.596 Chunk 3 | similarity=0.492
+
+==================== TIMING ====================
+
+Total time: 0.04 sec
+
+================================================
+
+Ask a question (or type 'exit'): What are the different phases of the DBMS query processing cycle
+
+==================== ANSWER ====================
+
+lment (StudentID, CourseID) 52. What are the different phases of the DBMS query processing cycle? The DBMS query processing cycle consists of several phases that transform the high-level query (SQL) into executable actions: Parsing : The SQL query is parsed to check its syntax and semantics. The DBMS ensures that the query is valid according to the SQL syntax and the database schema. Translation : The query is translated into an internal form, such as a relational algebra expression or an execut
+
+e backbone of modern data storage and management. Understanding DBMS concepts is critical for anyone looking to work with databases. Whether you're preparing for your first job in database management or advancing in your career, being well-prepared for a DBMS interview can make all the difference. In this article, we've covered a list of DBMS interview questions that cover everything from basic to advanced topics. These questions will help us build a solid understanding of DBMS concepts, from ho
+
+ons dive deeper into more complex DBMS concepts and practical applications. These questions assess your ability to handle real-world database problems involving transactions, concurrency control, and schema design. Topics such as joins, indexing, normalization, and transaction management are often discussed at this level. 26. What is a transaction in DBMS? What are the properties of a transaction? A transaction in DBMS is a sequence of one or more SQL operations executed as a single unit of work
+
+==================== SOURCES ====================
+
+Chunk 1 | similarity=0.842 Chunk 2 | similarity=0.563 Chunk 3 | similarity=0.546
+
+==================== TIMING ====================
+
+Total time: 0.03 sec
+
+================================================
+
+Ask a question (or type 'exit'): exit
